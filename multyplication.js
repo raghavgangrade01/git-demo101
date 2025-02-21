@@ -1,3 +1,4 @@
+//this function multiplies two numbers
 const multyfunction = (a, b) => {
     return a * b;
 }
