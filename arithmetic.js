@@ -7,11 +7,12 @@ function calculate(a, b, operator) {
         case '*':
             return a * b;
         case '/':
-            return b !== 0 ? a / b : "Cannot divide by zero";
+            return b !== 0 ? a / b : "Math Error: Division by zero is not allowed";
         default:
-            return "Invalid operator";
+            return "Math Error: Invalid operation selected";
     }
 }
+
 
 // Example usage:
 console.log(calculate(10, 5, '+')); // Output: 15
