@@ -1,3 +1,4 @@
+//this function takes in two numbers and an operator and returns the result of the operation
 function calculate(a, b, operator) {
     switch (operator) {
         case '+':
