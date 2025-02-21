@@ -15,6 +15,7 @@ function calculate(a, b, operator) {
     }
 }
 
+
 // Example usage:
 console.log(calculate(10, 5, '%')); // Output: 0
 console.log(calculate(10, 3, '%')); // Output: 1
